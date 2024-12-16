@@ -31,7 +31,7 @@ nos ubicamos en el directorio del código fuente y ejecutamos el comando:<br>
 
    >  *gcloud run deploy --source .*
 
-   - ***Nota: La aplicación spring boot, debe tener configurado el puerto 8080 para el servidor integrado***
+   - :memo: ***Nota: La aplicación spring boot, debe tener configurado el puerto 8080 para el servidor integrado***
 
    ![Deploy to Cloud Run](https://raw.githubusercontent.com/kimmi1206/documentacion-bancodebogota/refs/heads/main/DESPLIEGUE/deploy-gcloud-run.png)
 
@@ -84,22 +84,19 @@ La guía para desplegar el frontend se encuentra en el link:<br>
 
 ## API ENDPOINTS:
 
-	- **GET Cliente:**
-		- Url:  *“/api/v1/clientes/buscar”*
-		- Query Parameters:  *tipoDocumento: String*
-					 	     *numeroDocumento: String*
-        - Example: <https://back-bancodebogota-608870366046.us-central1.run.app/api/v1/clientes/buscar?tipoDocumento=C&numeroDocumento=23445322>
-
-
-	- **GET Archivo Clientes:**
-		- Url:  *“/api/v1/clientes/download”*
-        - Example: <https://back-bancodebogota-608870366046.us-central1.run.app/api/v1/clientes/download>
-
-
-    - **SWAGGER API Docs:**
-        - Url:  “/swagger-ui/index.html”
-        - Example: <https://back-bancodebogota-608870366046.us-central1.run.app/swagger-ui/index.html>
-
-
-
+> - **GET Cliente:**
+>     - Url:  *“/api/v1/clientes/buscar”*
+>     - Query Parameters: *tipoDocumento: String*
+>                         *numeroDocumento: String*
+>     - Example: <https://back-bancodebogota-608870366046.us-central1.run.app/api/v1/clientes/buscar?tipoDocumento=C&numeroDocumento=23445322>
+>
+>
+> - **GET Archivo Clientes:**
+>     - Url:  *“/api/v1/clientes/download”*
+>     - Example: <https://back-bancodebogota-608870366046.us-central1.run.app/api/v1/clientes/download>
+>
+>
+> - **SWAGGER API Docs:**
+>     - Url:  “/swagger-ui/index.html”
+>     - Example: <https://back-bancodebogota-608870366046.us-central1.run.app/swagger-ui/index.html>
 
