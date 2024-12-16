@@ -22,9 +22,9 @@ La guía a seguir se encuentra en el link:<br>
 
 4. Luego se crean los roles para permitir a Cloud Build crear y desplegar aplicaciones desde el código fuente:<br>
 
-   >  *gcloud projects add-iam-policy-binding PROJECT_ID \
+   >  *`gcloud projects add-iam-policy-binding PROJECT_ID \
    >      --member=serviceAccount:PROJECT_NUMBER-compute@developer.gserviceaccount.com \
-   >      --role=roles/cloudbuild.builds.builder*
+   >      --role=roles/cloudbuild.builds.builder`*
 
 5. Finalmente para desplegar la aplicación spring boot, <br>
 nos ubicamos en el directorio del código fuente y ejecutamos el comando:<br>
@@ -97,6 +97,6 @@ La guía para desplegar el frontend se encuentra en el link:<br>
 >
 >
 > - **SWAGGER API Docs:**
->     - Url:  “/swagger-ui/index.html”
+>     - Url:  *“/swagger-ui/index.html”*
 >     - Example: <https://back-bancodebogota-608870366046.us-central1.run.app/swagger-ui/index.html>
 
